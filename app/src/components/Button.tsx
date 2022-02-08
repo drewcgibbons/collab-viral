@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {Flex} from '@chakra-ui/react'
+import {SPACING} from '../constants/constants'
 
 export const Button = styled.button`
     border-radius: 9px;

@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@chakra-ui/layout": "^1.7.4",
     "@chakra-ui/react": "^1.8.3",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -11,11 +10,9 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.0",
-    "@types/node": "^17.0.16",
+    "@types/node": "^16.11.22",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
-    "audit": "0.0.6",
-    "chakra-ui": "^0.3.9",
     "framer-motion": "^5.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -47,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.22"
   }
 }

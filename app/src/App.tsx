@@ -1,6 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
-import './App.css';
 import {Button, Container, DeclineButton} from './components/Button'
+import './App.css';
 
 function App() {
   return (
@@ -8,11 +9,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <Container>
-          <Button>Test</Button> <DeclineButton>Decline</DeclineButton>
-        </Container>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -24,7 +22,6 @@ function App() {
         <Container>
           <Button>Yes</Button> <DeclineButton>No</DeclineButton>
         </Container>
-
       </header>
     </div>
   );
