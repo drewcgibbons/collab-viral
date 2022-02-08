@@ -48,46 +48,46 @@ export const COLORS = {
   RED: '#FF7F71',
 }
 
-// const textStyling = (
-//   fontWeight: number,
-//   fontSize: string,
-//   lineHeight: string,
-//   smFontSize?: string,
-//   smLineHeight?: string
-// ) => {
-//   return `
-//       font-family: Inter;
-//       font-weight: ${fontWeight};
-//       font-size: ${fontSize};
-//       line-height: ${lineHeight};
-//       margin: 0;
-//       ${BREAKPOINTS.SM} {
-//         ${smFontSize ? `font-size: ${smFontSize};` : ''}
-//         ${smLineHeight ? `line-height: ${smLineHeight};` : ''}
-//       }
-//   `
-// }
+const textStyling = (
+  fontWeight: number,
+  fontSize: string,
+  lineHeight: string,
+  smFontSize?: string,
+  smLineHeight?: string
+) => {
+  return `
+      font-family: Inter;
+      font-weight: ${fontWeight};
+      font-size: ${fontSize};
+      line-height: ${lineHeight};
+      margin: 0;
+      ${BREAKPOINTS.SM} {
+        ${smFontSize ? `font-size: ${smFontSize};` : ''}
+        ${smLineHeight ? `line-height: ${smLineHeight};` : ''}
+      }
+  `
+}
 
-// export const FONTS = {
-//   H1: styled.h1`
-//     ${textStyling(500, '33px', '40px')}
-//   `,
-//   H2: styled.h2`
-//     ${textStyling(600, '23px', '28px', '28px', '34px')}
-//   `,
-//   H3: styled.h3`
-//     ${textStyling(500, '19px', '23px', '23px', '28px')}
-//   `,
-//   H4: styled.h4`
-//     ${textStyling(500, '16px', '19px', '19px', '23px')}
-//   `,
-//   H5: styled.h5`
-//     ${textStyling(400, '14px', '17px', '16px', '19px')}
-//   `,
-//   H6: styled.h6`
-//     ${textStyling(400, '12px', '15px', '14px', '17px')}
-//   `,
-// }
+export const FONTS = {
+  H1: styled.h1`
+    ${textStyling(500, '33px', '40px')}
+  `,
+  H2: styled.h2`
+    ${textStyling(600, '23px', '28px', '28px', '34px')}
+  `,
+  H3: styled.h3`
+    ${textStyling(500, '19px', '23px', '23px', '28px')}
+  `,
+  H4: styled.h4`
+    ${textStyling(500, '16px', '19px', '19px', '23px')}
+  `,
+  H5: styled.h5`
+    ${textStyling(400, '14px', '17px', '16px', '19px')}
+  `,
+  H6: styled.h6`
+    ${textStyling(400, '12px', '15px', '14px', '17px')}
+  `,
+}
 
 export const SPACING = {
   0: '0px',

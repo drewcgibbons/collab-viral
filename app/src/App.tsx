@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import {Button, Container, DeclineButton} from './components/Button'
+import {Button, ButtonText, Container, DeclineButton} from './components/Button'
 import './App.css';
 
 function App() {
@@ -20,7 +20,12 @@ function App() {
           Learn React
         </a>
         <Container>
-          <Button>Yes</Button> <DeclineButton>No</DeclineButton>
+          <Button>
+            <ButtonText>Yes</ButtonText>
+          </Button> 
+          <DeclineButton>
+            <ButtonText>No</ButtonText>
+          </DeclineButton>
         </Container>
       </header>
     </div>
