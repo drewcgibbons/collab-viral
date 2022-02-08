@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {Button, Container, DeclineButton} from './components/Button'
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Container>
+          <Button>Test</Button> <DeclineButton>Decline</DeclineButton>
+        </Container>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <Container>
+          <Button>Yes</Button> <DeclineButton>No</DeclineButton>
+        </Container>
+
       </header>
     </div>
   );
